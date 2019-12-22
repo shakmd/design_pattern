@@ -26,5 +26,5 @@ import design_pattern.abstract_factory.product.theme.Theme;
 public interface AppFactory {
     public Button getButton();
 
-    public Theme getThem();
+    public Theme getTheme();
 }

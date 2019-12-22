@@ -12,7 +12,7 @@ public class WindowAppFactory implements AppFactory {
     }
 
     @Override
-    public Theme getThem() {
+    public Theme getTheme() {
         return new WindowsTheme();
     }
 }

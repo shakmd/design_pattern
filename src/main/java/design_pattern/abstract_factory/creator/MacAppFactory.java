@@ -12,7 +12,7 @@ public class MacAppFactory implements AppFactory {
     }
 
     @Override
-    public Theme getThem() {
+    public Theme getTheme() {
         return new MacTheme();
     }
 }
