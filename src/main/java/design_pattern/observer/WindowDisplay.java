@@ -1,6 +1,4 @@
-package observer_pattern;
-
-import java.util.Observer;
+package design_pattern.observer;
 
 public class WindowDisplay implements IObserver {
     @Override

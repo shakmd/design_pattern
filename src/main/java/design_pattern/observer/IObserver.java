@@ -1,4 +1,4 @@
-package observer_pattern;
+package design_pattern.observer;
 
 public interface IObserver {
     //This sample example shows that observer needs to be updated with some value

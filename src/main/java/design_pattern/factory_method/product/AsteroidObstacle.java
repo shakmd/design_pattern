@@ -1,10 +1,10 @@
-package factory_method_pattern.product;
+package design_pattern.factory_method.product;
 
-public class MonsterObstacle implements Obstacle {
+public class AsteroidObstacle implements Obstacle {
     private int strength;
     private int position;
 
-    public MonsterObstacle(int strength, int position) {
+    public AsteroidObstacle(int strength, int position) {
         this.strength = strength;
         this.position = position;
     }
@@ -17,6 +17,5 @@ public class MonsterObstacle implements Obstacle {
     @Override
     public int getPosition() {
         return position;
-
     }
 }

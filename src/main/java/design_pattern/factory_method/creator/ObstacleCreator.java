@@ -17,14 +17,14 @@ In this example project, imaging we are designing a game where a random obstacle
 on the screen and player shoots it up
  */
 
-package factory_method_pattern.product;
+package design_pattern.factory_method.creator;
+
+import design_pattern.factory_method.product.Obstacle;
 
 /***
- * This interface just represent an obstacle that could appear in the screen of the player
- * It has method to get information to be displayed in the screen
+ * Creates obstacle depending upon the difficulty set by the player and
+ * the current stage at which the current player is playing
  */
-public interface Obstacle {
-    public int getStrength();
-
-    public int getPosition();
+public interface ObstacleCreator {
+    public Obstacle createObstacle(int difficultyLevel, int currentStage);
 }

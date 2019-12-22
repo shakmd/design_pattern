@@ -1,4 +1,4 @@
-package observer_pattern;
+package design_pattern.observer;
 
 public interface IObservable {
     public void addMember(IObserver observer);

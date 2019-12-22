@@ -1,4 +1,4 @@
-package observer_pattern;
+package design_pattern.observer;
 
 public class PhoneDisplay implements IObserver {
     @Override

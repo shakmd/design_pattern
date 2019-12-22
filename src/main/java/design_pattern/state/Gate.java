@@ -1,6 +1,6 @@
-package state_pattern;
+package design_pattern.state;
 
-import state_pattern.states.GateState;
+import design_pattern.state.states.GateState;
 
 /***
  * Imagine this class to be a gate/turnstile used in metro/subway/tube.<br>
