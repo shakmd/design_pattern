@@ -1,7 +1,7 @@
-package FactoryMethodPattern.creator;
+package factory_method_pattern.creator;
 
-import FactoryMethodPattern.product.MonsterObstacle;
-import FactoryMethodPattern.product.Obstacle;
+import factory_method_pattern.product.MonsterObstacle;
+import factory_method_pattern.product.Obstacle;
 
 public class BalancedObstacleCreator implements ObstacleCreator {
     /***

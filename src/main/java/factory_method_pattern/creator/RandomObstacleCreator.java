@@ -1,7 +1,7 @@
-package FactoryMethodPattern.creator;
+package factory_method_pattern.creator;
 
-import FactoryMethodPattern.product.AsteroidObstacle;
-import FactoryMethodPattern.product.Obstacle;
+import factory_method_pattern.product.AsteroidObstacle;
+import factory_method_pattern.product.Obstacle;
 
 public class RandomObstacleCreator implements ObstacleCreator {
     /***

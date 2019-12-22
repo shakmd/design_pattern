@@ -1,4 +1,4 @@
-package FactoryMethodPattern.product;
+package factory_method_pattern.product;
 
 public class AsteroidObstacle implements Obstacle {
     private int strength;
