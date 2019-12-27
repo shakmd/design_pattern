@@ -24,6 +24,6 @@ public class TestDecoratorPattern {
 
         //Waiter: Your total bill is
 
-        Assert.assertEquals( 22, beverage.cost());
+        Assert.assertEquals(22, beverage.cost());
     }
 }
