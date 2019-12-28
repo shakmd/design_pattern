@@ -3,7 +3,7 @@ package design_pattern.decorator;
 import org.junit.Test;
 import org.junit.Assert;
 
-public class TestDecoratorPattern {
+public class TestDecorator {
     @Test
     public void testBeverageCost() {
         //Waiter: Place order-> Decaf or Espresso
